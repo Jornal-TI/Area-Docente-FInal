@@ -1,0 +1,54 @@
+.background-card {
+  margin-left: 8%;
+}
+
+.card {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-left: 3%;
+}
+
+.custom-feed-border {
+  border: 1% solid #000000;
+}
+
+.modal-90w {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.txt-comentario {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+}
+
+.comment-divider {
+  border-top: 1px solid #0056b3;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.autordatahora {
+  color: #17245f;
+}
+
+.toggle-order-button {
+  position: fixed;
+  bottom: 60px;
+  right: 140px;
+  z-index: 999;
+}
+
+.favorited-icon {
+  color: #fffb00;
+}
+
+.unfavorited-icon{
+  color: #ffffff;
+}
+

@@ -1,0 +1,49 @@
+/* styleFooter.css */
+
+/* Estilos para o container do footer */
+.container-footer {
+  background-color: #263da5; /* Cor de fundo do rodapé */
+  color: white; /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilos para o rodapé com o título "Jornal Senac" */
+.footer2 {
+  background-color: #17245f;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilos para o rodapé com o texto ilustrativo */
+.footer1 {
+  background-color: #17245f;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Estilos para a área das imagens linkadas */
+.imagens-linkadas {
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente as imagens */
+  gap: 10px; /* Espaçamento entre as imagens linkadas */
+}
+
+/* Estilos para cada imagem linkada */
+.imagens-linkadas a {
+  text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Estilos para a descrição das imagens linkadas */
+.imagens-linkadas img {
+  max-width: 50px; /* Largura máxima das imagens linkadas (altere conforme necessário) */
+  height: auto; /* Altura automática para manter a proporção */
+  border-radius: 5px; /* Arredondar as bordas */
+}
+
+/* Estilos para hover nas imagens linkadas (opcional) */
+.imagens-linkadas a:hover {
+  opacity: 0.8; /* Reduzir a opacidade ao passar o mouse */
+}

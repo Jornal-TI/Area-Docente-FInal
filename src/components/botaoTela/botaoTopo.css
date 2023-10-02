@@ -1,0 +1,29 @@
+/* Estilize o contêiner da imagem */
+.scroll-to-top-container {
+  display: none; /* Inicialmente, o contêiner estará oculto */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 999; /* Garante que o contêiner esteja acima de outros elementos */
+  transition: opacity 0.3s ease; /* Efeito de transição de opacidade */
+}
+
+/* Estilo quando o contêiner está visível */
+.scroll-to-top-container.visible {
+  display: block;
+}
+
+/* Estilize a imagem */
+.scroll-to-top-image {
+  width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+  border-radius: 50%;
+  background-color: #007BFF; /* Cor de fundo da imagem */
+  padding: 10px;
+}
+
+/* Efeito de hover para a imagem */
+.scroll-to-top-image:hover {
+  background-color: #0056b3; /* Cor de fundo diferente ao passar o mouse */
+}

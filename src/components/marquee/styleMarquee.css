@@ -1,0 +1,38 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-wrapper {
+    white-space: nowrap;
+    animation: marqueeAnimation 40s linear infinite;
+    -webkit-animation: marqueeAnimation 40s linear infinite;
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .marquee-wrapper.paused {
+    animation-play-state: paused;
+  }
+  
+  .marquee-item {
+    display: inline-block;
+    margin-right: 7%;
+  }
+  
+  .marquee-item a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .marquee-item a:hover {
+    text-decoration: underline;
+  }
+  

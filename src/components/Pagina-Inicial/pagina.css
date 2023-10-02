@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&display=swap');
+
+.App {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background-app {
+    background-image: url('../../icons/senacLA.jpg');
+    background-repeat: no-repeat;
+    height: 873px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+
+.clock-aluno p {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 100px;
+}
+
+.data-aluno p {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 100px;
+}
+
+#logo {
+    height: 120px;
+}
+
+.data-aluno {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: rgb(15, 76, 112);
+    color: rgb(247, 248, 252);
+    font-size: 25px;
+    /* font-family: monospace; */
+    height: 100px;
+    font-weight: bolder;
+    
+}
+
+.titulo-aluno h1 {
+    margin-right: 950px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav-aluno {
+    margin: 0;
+}
+
+.home-aluno{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: transparent;
+    width: 100px;
+    margin-left: 1300px;
+}
+
+.home-aluno :hover{
+    color: rgb(250, 171, 67);
+    transition: 0.5s;
+}
+
+.turma-nome{
+    font-size: 27px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.bk-turma-nome{
+    background-color: rgb(12, 68, 100);
+    padding: 10px;
+}

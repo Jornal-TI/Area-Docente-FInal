@@ -1,0 +1,41 @@
+/* TabelaAulas.css */
+
+.tabela-aulas {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+  }
+  
+  table th,
+  table td {
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilizar as células das horas separadamente para realçá-las */
+  table td:nth-child(2) {
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+  }
+  

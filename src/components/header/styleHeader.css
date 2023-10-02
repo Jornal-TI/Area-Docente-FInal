@@ -1,0 +1,107 @@
+/* Header.css */
+/* LoginDialog.css */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999999999 !important; /* Um valor alto para garantir que esteja na parte superior */
+  }
+  
+  .modal.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    z-index: 10000000000 !important; /* Um valor ainda maior para que o modal esteja acima de tudo */
+  }
+  
+  .modal h2 {
+    text-align: center;
+  }
+  
+  .modal button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+
+.containerHeader {
+    background-color: #17245f;
+  }
+  
+  .data {
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-left: 8%;
+  }
+  
+  .titulo {
+    padding: 1px;
+    color: white;
+    margin-left: 8%;
+  }
+  
+  .background-nav {
+    background-color: rgb(29, 46, 122);
+  }
+  
+  nav {
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .pesquisa {
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .pesquisa::placeholder {
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 14px;
+    transition: all 255ms linear 0s;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background: #ffffff26;
+  }
+  
+  

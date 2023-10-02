@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(46, 46, 46)!important;
+}
+
+.Feeds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Feeds .row {
+    width: 68%;
+}
+
+.MenusLaterais {
+    width: 31%;
+}
+

@@ -1,0 +1,62 @@
+.atividades-browser {
+  display: flex;
+  border: 2px solid #ddd;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.atividades-browser select {
+  width: 100%;
+  padding: 30px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.atividades-browser p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.atividades-browser select option {
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+.atividades-browser select[value=""] {
+  color: #777;
+}
+
+.atividades-browser select[value="opcao1"] {
+  color: #007bff;
+}
+
+.atividades-browser select[value="opcao2"] {
+  color: #333;
+}
+
+.atividades-browser select[value="opcao3"] {
+  color: #555;
+}
+
+.atividades-browser select[value="opcao4"] {
+  color: #888;
+}
+
+.download-btt {
+  width: 80%;
+  padding: 30px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  color: #000;
+}
